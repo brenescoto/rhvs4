@@ -4,7 +4,7 @@
   gather_facts: True
   vars:
     - username: admin@internal
-    - url: 'https://manager.domain/ovirt-engine/api'
+    - url: 'https://manager.lab-internal.sat/ovirt-engine/api'
     - ca_file: '/etc/pki/ovirt-engine/ca.pem'
     - cluster: "sat_cluster"
     - host_address: "10.17.193.236"
